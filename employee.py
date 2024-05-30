@@ -270,6 +270,7 @@ class Employee:
         btn_save.grid(row=0, column=0, pady=10, sticky=W)
 
         btn_update = Button(
+            
             button_frame,
             command=self.updateData,
             text="Update",
